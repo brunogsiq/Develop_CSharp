@@ -1,22 +1,19 @@
-/*
-    Controller, será onde estarão as rotas.
+Parece que você compartilhou um comentário sobre um controlador (Controller) em C# para rotas de uma API. Aqui estão algumas observações:
 
-    O retorno sempre estará vinculado ao metódo
-        Ex: find, justify, locked, export...
+1. **Controller e Rotas:**
+   - O trecho menciona que o Controller é o local onde as rotas estarão definidas. Em C#, especialmente ao usar ASP.NET Core, os controllers são responsáveis por definir as rotas e os métodos associados a essas rotas.
 
-    C#, é uma linguagem que pode ser utilizada para realização de testes unitário.
+2. **Retorno Vinculado ao Método:**
+   - Cada método no controller geralmente tem um tipo de retorno específico, indicando o que será retornado como resposta para a chamada da rota. Pode ser um objeto, um ActionResult, ou até mesmo um IActionResult.
 
-    Os testes unitários devem auxiliar-testar processos, 
-        o pensamento deve estar desvinculado do que o front apresenta
+3. **Testes Unitários:**
+   - O comentário destaca a importância dos testes unitários, sugerindo que eles devem ser desvinculados do que o front-end apresenta. Isso é uma boa prática, pois os testes unitários devem verificar a lógica e o comportamento do código, independentemente da interface do usuário.
 
-    Uma dica é, utilizar o navegador, na aba rede, para visualizar o response das rotas da API.
+4. **Dicas para Testes Unitários:**
+   - Sugere-se inserir breakpoints na API para pausar a execução e observar o comportamento em tempo de execução. Também menciona a importância de abrir a API localmente para verificar o response das rotas.
 
-    [Testes Unitários - Dicas]
+5. **Interagindo com a API:**
+   - Menciona o uso do navegador e a aba de rede para visualizar as respostas das rotas da API. Essa é uma abordagem comum para depurar e entender as interações entre o cliente e a API.
 
-    Insere um break point na API, que fica em Controller, para pausar onde deve-se observar.
-        API deverá ser aberta localmente.
-    Para ver o response, será necessário colocar a API para funcionar.
-
-    Para fazer anotação na string existente ($@".../{novoConteúdo}")
-
-*/
+6. **Anotações na String:**
+   - Recomenda a utilização de anotações na string utilizando `$@".../{novoConteúdo}"`. Esse formato, chamado de string interpolada, permite incorporar variáveis diretamente na string sem concatenar explicitamente.
