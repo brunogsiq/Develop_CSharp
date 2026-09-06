@@ -16,3 +16,5 @@ Dê os primeiros passos no desenvolvimento web com C# usando ASP.NET Core. Explo
 
 ## Dicas e Truques Avançados 💡🚀
 Acesse dicas avançadas, truques e práticas recomendadas para elevar suas habilidades em C#. Desde manipulação de exceções até programação assíncrona, fornecemos insights valiosos para aprimorar sua proficiência na linguagem.
+
+Mensagem teste - Deverá ser apagada após documentação completa
